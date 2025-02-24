@@ -62,7 +62,7 @@ As people age, managing health and daily activities becomes increasingly challen
 - Supabase account
 
 ### Step 1: Clone the Repository
-    ```bash
+    
     # Clone the repository
     git clone https://github.com/MohammadAman5577/Elder-care-connect.git
 
@@ -71,7 +71,7 @@ As people age, managing health and daily activities becomes increasingly challen
 
 
 ### Step 2: Environment Setup
-    ```bash
+    
     # Copy example environment file
     cp .env.example .env.local
 
@@ -80,7 +80,7 @@ As people age, managing health and daily activities becomes increasingly challen
     VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
     VITE_API_URL=your_api_url
 ### Step 3: Install Dependencies
-    ```bash
+    
     # Install project dependencies
     npm install
 
@@ -91,16 +91,16 @@ As people age, managing health and daily activities becomes increasingly challen
  1.Create a new project in Supabase
  2.Run the database migrations
 
-     ```bash
+     
      npm run migrate
 
 ### Step 5: Start Development Server
-      ```bash
+      
       # Start the development server
       npm run dev
       # The server will start on http://localhost:5173
 ### Step 6: Build for Production
-      ```bash
+      
       # Create production build
       npm run build
 
